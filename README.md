@@ -1,7 +1,10 @@
 # 🎮 Dự án Cờ Caro AI (9x9) - Hướng Dẫn Vận Hành
 
-Đồ án Bài tập lớn môn Trí tuệ nhân tạo hiện thực hóa trò chơi cờ Caro đối kháng đối thủ máy (AI) trên lưới bàn cờ kích thước 9x9. Chương trình so sánh trực quan hiệu suất tính toán giữa thuật toán cây **Minimax cơ bản** và thuật toán cải tiến **Alpha-Beta Pruning**.
-
+Bài tập lớn môn Trí tuệ nhân tạo hiện thực hóa trò chơi cờ Caro đối kháng đối thủ máy (AI) trên lưới bàn cờ kích thước 9x9. Chương trình so sánh trực quan hiệu suất tính toán giữa thuật toán cây **Minimax cơ bản** và thuật toán cải tiến **Alpha-Beta Pruning**.
+Nhóm sinh viên:
+Trần Thị Hồng Nhung - 23021319
+Kiều Lan Hương - 23021284
+Phan Đăng Huy - 23021279
 ---
 
 ## 📂 Cấu trúc thư mục mã nguồn (Project Structure)
