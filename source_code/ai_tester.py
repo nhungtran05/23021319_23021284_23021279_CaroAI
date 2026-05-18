@@ -2,14 +2,12 @@
 import time
 import math
 
-# Lưu ý: Hàm này ĐÃ CÓ tham số mode ở cuối cùng
 def run_ai_with_benchmark(ai_agent, depth, last_move, mode):
     print(f"\n--- AI ĐANG TÌM KIẾM ({mode} - Depth: {depth}) ---")
     
     ai_agent.states_explored = 0  
     start_time = time.time()      
     
-    # KIỂM TRA MODE ĐỂ GỌI ĐÚNG THUẬT TOÁN
     if mode == "MINIMAX":
         score, best_move = ai_agent.minimax(depth, True, last_move)
     else:
