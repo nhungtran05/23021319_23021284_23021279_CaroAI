@@ -6,7 +6,6 @@ def evaluate_board(board_state, size=9):
         
     score = 0
     
-    # TỐI ƯU HÀM CHẤM ĐIỂM: Xử lý triệt để lỗi bị chặn 2 đầu (XOOOX)
     def evaluate_window(window):
         o_count = window.count('O')
         x_count = window.count('X')
